@@ -30,4 +30,11 @@ brew bundle
 
 echo
 
+echo "📦 Pakete erfolgreich installiert."
+
+echo
+echo "🔗 Erstelle Symlinks..."
+./scripts/symlinks.sh
+
+echo
 echo "✅ Installation abgeschlossen!"
