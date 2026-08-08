@@ -1,0 +1,23 @@
+# CachyOS / Arch native packages
+# One package per line. Comments are ignored by the installer.
+
+# CLI
+bat
+btop
+eza
+fastfetch
+fd
+fzf
+lazygit
+ripgrep
+starship
+zoxide
+
+# Terminal / desktop
+kitty
+
+# Gaming
+steam
+
+# CachyOS integration
+cachyos-settings
