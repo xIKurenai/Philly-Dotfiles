@@ -14,7 +14,12 @@ mkdir -p "$BACKUP_DIR"
 backup() {
     local target="$1"
 
-    if [ -e "$target" ] || [ -L "$target" ]; then
+    if [ -L "$target" ]; then
+        echo "↪️ Überspringe Symlink: $target"
+        return
+    fi
+
+    if [ -e "$target" ]; then
         local name
         name="$(basename "$target")"
 
