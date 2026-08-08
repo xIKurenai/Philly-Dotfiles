@@ -1,18 +1,9 @@
-# Flatpak applications
-# One application ID per line. Comments are ignored by the installer.
-
 app.zen_browser.zen
 com.discordapp.Discord
 com.github.Matoking.protontricks
 com.github.tchx84.Flatseal
 com.heroicgameslauncher.hgl
 com.vysp3r.ProtonPlus
-io.github.DenysMb.Kontainer
-io.github.flattool.Warehouse
-net.davidotek.pupgui2
-org.gnome.Firmware
-org.kde.gwenview
-org.kde.haruna
 org.kde.kcalc
 org.kde.okular
 org.mozilla.firefox
