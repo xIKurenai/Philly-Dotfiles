@@ -33,6 +33,10 @@ echo
 echo "📦 Pakete erfolgreich installiert."
 
 echo
+echo "💾 Sichere vorhandene Konfigurationen..."
+./scripts/backup.sh
+
+echo
 echo "🔗 Erstelle Symlinks..."
 ./scripts/symlinks.sh
 
