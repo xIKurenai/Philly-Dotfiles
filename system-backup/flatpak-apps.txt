@@ -1,0 +1,10 @@
+app.zen_browser.zen
+com.discordapp.Discord
+com.github.Matoking.protontricks
+com.github.tchx84.Flatseal
+com.heroicgameslauncher.hgl
+com.vysp3r.ProtonPlus
+org.kde.kcalc
+org.kde.okular
+org.mozilla.firefox
+org.prismlauncher.PrismLauncher
