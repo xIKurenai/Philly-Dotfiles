@@ -16,8 +16,9 @@ echo "📦 Exportiere pacman-Pakete..."
 pacman -Qqe | sort > "$BACKUP_DIR/pacman-packages.txt"
 
 # Foreign packages are useful for identifying AUR packages.
+# pacman returns a non-zero status when no foreign packages exist.
 echo "📦 Exportiere AUR/Foreign-Pakete..."
-pacman -Qqm | sort > "$BACKUP_DIR/aur-packages.txt"
+pacman -Qqm | sort > "$BACKUP_DIR/aur-packages.txt" || true
 
 # Flatpak applications installed for the current user and system-wide.
 if command -v flatpak >/dev/null 2>&1; then
