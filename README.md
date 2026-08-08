@@ -4,14 +4,15 @@ Mein persönliches Linux-Setup – mit Fokus auf ein modernes,
 reproduzierbares und leicht wartbares System.
 
 > Dieses Repository enthält meine persönlichen Konfigurationen,
-> Installationsskripte und Softwarelisten.
+> Installationsskripte und Softwarelisten für CachyOS.
 
 ---
 
 ## 🖥️ Aktuelles System
 
-- **Distro:** Bazzite
-- **Geplant:** CachyOS
+- **Distro:** CachyOS
+- **Desktop:** KDE Plasma
+- **Geplant:** Hyprland
 - **Shell:** Bash
 - **Terminal:** Kitty
 - **Prompt:** Starship
@@ -34,19 +35,25 @@ reproduzierbares und leicht wartbares System.
 - starship
 - zoxide
 
+### 🎮 Gaming
+
+- Steam
+- Heroic Games Launcher
+- ProtonPlus
+- Protontricks
+- Prism Launcher
+
 ### 🖥️ Desktop / GUI
 
 - Kitty
 - Firefox
 - Discord
-- Heroic Games Launcher
 - KDE Apps
-- ProtonPlus
-- Protontricks
 - Flatseal
 - Warehouse
 
-Die installierte Software wird über das `Brewfile` verwaltet.
+Native Pakete werden über `packages/pacman.txt` verwaltet.
+Flatpaks werden über `packages/flatpak.txt` verwaltet.
 
 ---
 
@@ -62,6 +69,9 @@ Philly-Dotfiles/
 │   │   ├── current-theme.conf
 │   │   └── kitty.conf
 │   └── starship.toml
+├── packages/
+│   ├── pacman.txt
+│   └── flatpak.txt
 ├── scripts/
 │   ├── backup.sh
 │   ├── install.sh
@@ -86,6 +96,9 @@ Philly-Dotfiles/
 - [x] Installationsskript erstellen
 - [x] Backup-System erstellen
 - [x] Symlink-System erstellen
+- [x] CachyOS-Paketverwaltung einrichten
+- [x] Flatpak-Paketverwaltung einrichten
+- [x] Gaming-Software dokumentieren
 - [ ] Hyprland konfigurieren
 - [ ] Waybar konfigurieren
 - [ ] Walker konfigurieren
