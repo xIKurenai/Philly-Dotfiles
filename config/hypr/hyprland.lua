@@ -62,6 +62,12 @@ end)
 
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("XCURSOR_THEME", "breeze_cursors")
+hl.config({
+    cursor = {
+        no_hardware_cursors = true,
+    },
+})
 
 
 -----------------------
