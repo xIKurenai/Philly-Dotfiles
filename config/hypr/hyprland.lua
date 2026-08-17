@@ -177,6 +177,16 @@ hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "
 -- uncomment all if you wish to use that.
 -- hl.workspace_rule({ workspace = "w[tv1]", gaps_out = 0, gaps_in = 0 })
 -- hl.workspace_rule({ workspace = "f[1]",   gaps_out = 0, gaps_in = 0 })
+hl.workspace_rule({ workspace = "1", monitor = "DP-2" })
+hl.workspace_rule({ workspace = "2", monitor = "DP-2" })
+hl.workspace_rule({ workspace = "3", monitor = "DP-2" })
+hl.workspace_rule({ workspace = "4", monitor = "DP-2" })
+hl.workspace_rule({ workspace = "5", monitor = "DP-2" })
+
+hl.workspace_rule({ workspace = "6", monitor = "DP-3" })
+hl.workspace_rule({ workspace = "7", monitor = "DP-3" })
+hl.workspace_rule({ workspace = "8", monitor = "DP-3" })
+hl.workspace_rule({ workspace = "9", monitor = "DP-3" })
 -- hl.window_rule({
 --     name  = "no-gaps-wtv1",
 --     match = { float = false, workspace = "w[tv1]" },
