@@ -376,3 +376,27 @@ hl.window_rule({
     move  = "20 monitor_h-120",
     float = true,
 })
+
+hl.window_rule({
+    name  = "zen-to-workspace-2",
+    match = { class = "^zen$" },
+    workspace = "2",
+})
+
+hl.window_rule({
+    name  = "heroic-to-workspace-4",
+    match = { class = "com.heroicgameslauncher.hgl" },
+    workspace = "4",
+})
+
+hl.window_rule({
+    name  = "steam-to-workspace-5",
+    match = { class = "^steam$" },
+    workspace = "5",
+})
+
+hl.window_rule({
+    name  = "discord-to-workspace-6",
+    match = { class = "^discord$" },
+    workspace = "6",
+})
