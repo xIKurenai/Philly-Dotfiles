@@ -29,9 +29,14 @@ backup() {
 }
 
 backup "$HOME/.bashrc"
-backup "$HOME/.config/starship.toml"
-backup "$HOME/.config/kitty"
+
 backup "$HOME/.config/fastfetch"
+backup "$HOME/.config/fish"
+backup "$HOME/.config/hypr"
+backup "$HOME/.config/kde"
+backup "$HOME/.config/kitty"
+backup "$HOME/.config/starship.toml"
+backup "$HOME/.config/waybar"
 
 echo
 echo "🎉 Backup abgeschlossen."

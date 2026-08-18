@@ -1,6 +1,11 @@
 [Desktops]
 Id_1=1cf0faa8-e388-4092-b384-c38e86500821
-Number=1
+Id_2=2b6435d2-b981-4619-95d0-ac668413c754
+Id_3=a80b56ad-822e-4b4e-b50a-a5ae80246cac
+Id_4=a74742ba-e393-4308-b8a6-d7d396228329
+Id_5=797f2fb7-35ce-431f-876c-f72662601fca
+Name_5=New Desktop
+Number=5
 Rows=1
 
 [Plugins]
@@ -14,6 +19,38 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][2b6435d2-b981-4619-95d0-ac668413c754][e639aa41-2622-4546-a226-9780167cb0ad]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][2b6435d2-b981-4619-95d0-ac668413c754][f0f89292-b975-49da-93da-2fa108c2c305]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][797f2fb7-35ce-431f-876c-f72662601fca][e639aa41-2622-4546-a226-9780167cb0ad]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][797f2fb7-35ce-431f-876c-f72662601fca][f0f89292-b975-49da-93da-2fa108c2c305]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a74742ba-e393-4308-b8a6-d7d396228329][e639aa41-2622-4546-a226-9780167cb0ad]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a74742ba-e393-4308-b8a6-d7d396228329][f0f89292-b975-49da-93da-2fa108c2c305]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a80b56ad-822e-4b4e-b50a-a5ae80246cac][e639aa41-2622-4546-a226-9780167cb0ad]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a80b56ad-822e-4b4e-b50a-a5ae80246cac][f0f89292-b975-49da-93da-2fa108c2c305]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows_HDR]
 MaxLuminance=470
 Reference=300
@@ -24,5 +61,3 @@ Scale=1
 [org.kde.kdecoration2]
 ButtonsOnLeft=
 ButtonsOnRight=IAX
-library=org.kde.kwin.aurorae.v2
-theme=__aurorae__svg__CatppuccinMocha-Modern

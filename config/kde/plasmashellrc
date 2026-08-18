@@ -5,13 +5,13 @@ floating=1
 thickness=44
 
 [PlasmaViews][Panel 50]
-floating=1
+floating=0
 panelLengthMode=0
 panelVisibility=0
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 50][Defaults]
-thickness=28
+thickness=45
 
 [PlasmaViews][Panel 70]
 alignment=132

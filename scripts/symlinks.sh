@@ -22,9 +22,16 @@ link() {
 }
 
 link "$DOTFILES/.bashrc" "$HOME/.bashrc"
-link "$DOTFILES/.config/starship.toml" "$HOME/.config/starship.toml"
-link "$DOTFILES/.config/kitty" "$HOME/.config/kitty"
-link "$DOTFILES/.config/fastfetch" "$HOME/.config/fastfetch"
+
+link "$DOTFILES/config/fastfetch" "$HOME/.config/fastfetch"
+link "$DOTFILES/config/fish" "$HOME/.config/fish"
+link "$DOTFILES/config/hypr" "$HOME/.config/hypr"
+link "$DOTFILES/config/kde/kdeglobals" "$HOME/.config/kdeglobals"
+link "$DOTFILES/config/kde/kwinrc" "$HOME/.config/kwinrc"
+link "$DOTFILES/config/kde/plasmashellrc" "$HOME/.config/plasmashellrc"
+link "$DOTFILES/config/kitty" "$HOME/.config/kitty"
+link "$DOTFILES/config/starship.toml" "$HOME/.config/starship.toml"
+link "$DOTFILES/config/waybar" "$HOME/.config/waybar"
 
 echo
 echo "🎉 Alle Symlinks wurden erstellt."

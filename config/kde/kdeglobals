@@ -105,6 +105,7 @@ ForegroundPositive=166,227,161
 ForegroundVisited=137,180,250
 
 [General]
+ColorScheme=CatppuccinMocha
 ColorSchemeHash=70452fe35c028201ec2b18b043a052dc4f48817d
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -119,15 +120,11 @@ menuFont=CaskaydiaMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 smallestReadableFont=CaskaydiaMono Nerd Font,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 toolBarFont=CaskaydiaMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
-[Icons]
-Theme=candy-icons
-
 [KDE]
 AnimationDurationFactor=0.25
-LookAndFeelPackage=Catppuccin.Mocha
+LookAndFeelPackage=org.kde.breezedark.desktop
 contrast=7
 frameContrast=0.2
-widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
