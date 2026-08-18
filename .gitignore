@@ -8,3 +8,4 @@ Thumbs.db
 
 # Local machine inventory
 system-backup/enabled-services.txt
+config/fish/fish_variables
