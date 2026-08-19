@@ -328,7 +328,9 @@ hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 -- Custom Kezbinds
-hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("zen-browser"))
+hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(
+    "pgrep -x zen-bin >/dev/null && hyprctl dispatch 'hl.dsp.focus({window = \"class:^zen$\"})' || zen-browser --new-instance"
+))
 
 
 --------------------------------
@@ -381,11 +383,6 @@ hl.window_rule({
     float = true,
 })
 
-hl.window_rule({
-    name  = "zen-to-workspace-2",
-    match = { class = "^zen$" },
-    workspace = "2",
-})
 
 hl.window_rule({
     name  = "heroic-to-workspace-4",
